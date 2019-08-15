@@ -1,4 +1,10 @@
 # PHP
+- task: SonarQubePrepare@4
+  inputs:
+    SonarQube: 'SonarTeste'
+    scannerMode: 'MSBuild'
+    projectKey: 'Joomla'
+    projectName: 'Joomla'
 - task: SonarQubeAnalyze@4
 # Test and package your PHP project.
 # Add steps that run tests, save build artifacts, deploy, and more:
