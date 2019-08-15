@@ -3,7 +3,7 @@
   inputs:
     SonarQube: 'SonarTeste'
     scannerMode: 'MSBuild'
-    projectKey: 'Joomla'
+    projectKey: '849e0e314fa41fdc99cca7ed5091b92c7c0856e2'
     projectName: 'Joomla'
 # Test and package your PHP project.
 # Add steps that run tests, save build artifacts, deploy, and more:
