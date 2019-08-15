@@ -1,3 +1,4 @@
+#PHP
 - task: SonarQubePrepare@4
   inputs:
     SonarQube: 'SonarTeste'
