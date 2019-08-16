@@ -1,12 +1,5 @@
-#PHP
 - task: SonarQubePrepare@4
   inputs:
     SonarQube: 'SonarTeste'
     scannerMode: 'CLI'
     configMode: 'file'
-
-- task: SonarQubeAnalyze@4
-
-- task: SonarQubePublish@4
-  inputs:
-    pollingTimeoutSec: '300'
