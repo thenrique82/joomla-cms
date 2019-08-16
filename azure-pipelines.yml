@@ -3,3 +3,5 @@
     SonarQube: 'SonarTeste'
     scannerMode: 'CLI'
     configMode: 'file'
+
+- task: SonarQubeAnalyze@4
